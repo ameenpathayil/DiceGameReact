@@ -1,0 +1,2 @@
+const [randomNumber, setRandomNumber] = useState("roll-dice.gif");
+<img src={require(`./image/${image}`)} id="diceImage" alt="" />

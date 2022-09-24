@@ -1,0 +1,71 @@
+.container{
+  text-align: center;
+  background-image: url('/public/image/bluebg.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+#mainHeading{
+  font-size: 80px;
+  color: white;
+  margin: 10px;
+}
+
+.diceGame {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newGame,#rollDice{
+  background-color: white;
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: rgb(230, 23, 23);
+  font-weight: bold;
+  margin-left: 20px;
+}
+#diceButton{
+  background-color: rgb(231, 18, 18);
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 5px;
+}
+#diceImage{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius:10px;
+}
+button{
+  border: 5px solid blueviolet;
+  cursor: pointer;
+}
+
+#diceArea{
+display: flex;
+flex-direction: row;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

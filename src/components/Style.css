@@ -1,0 +1,38 @@
+/* player */
+.playersDetails{
+    color: white;
+    border: 5px solid white;
+    margin: 10px 50px ;
+}
+#player{
+    font-size: 50px;
+    background-color: red;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+#score{
+    font-size: 30px;
+}
+#scoreValue{
+    font-size: 100px;
+}
+
+/* Dice style */
+
+.Dice{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerChance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 12, 145);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 50px;
+    border-radius:5px ;
+}
